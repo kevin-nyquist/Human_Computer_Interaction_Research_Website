@@ -1,3 +1,15 @@
+html {
+  background-color: lightgray;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-bar {
+  position: 0;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,12 +34,20 @@ ul {
     background-color: #111;
   }
 
+  .main-content {
+    display: flex;
+    min-width: 600px;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+  }
+
   .our-team {
     display: flex;
     width: 50%;
     background-color: lightblue;     
   }
 
-  p.our-team {
-    margin-left: 10px;
+  .our-team p {
+    margin-left: 15px;
   }
