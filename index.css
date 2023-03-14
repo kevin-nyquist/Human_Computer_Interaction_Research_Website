@@ -21,4 +21,13 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  
+
+  .our-team {
+    display: flex;
+    width: 50%;
+    background-color: lightblue;     
+  }
+
+  p.our-team {
+    margin-left: 10px;
+  }
