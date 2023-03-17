@@ -10,6 +10,20 @@ body {
     align-items: center;
   }
 
+.screenshot-content img {
+    border: 2px solid black;
+}
+
+  .content {
+    padding-left: 20px;
+  }
+
+  .content p {
+    margin-left: 15px;
+    margin-top: 0px;
+    max-width: 600px;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
