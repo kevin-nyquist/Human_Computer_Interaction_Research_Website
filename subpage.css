@@ -4,6 +4,7 @@ body {
 
 .screenshot-content {
     display: flex;
+    padding-left: 20px;
     min-width: 600px;
     justify-content: center;
     min-height: 400px;
