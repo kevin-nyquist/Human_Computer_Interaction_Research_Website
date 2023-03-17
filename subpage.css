@@ -2,6 +2,14 @@ body {
     margin: 0px;
 }
 
+.screenshot-content {
+    display: flex;
+    min-width: 600px;
+    justify-content: center;
+    min-height: 400px;
+    align-items: center;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
