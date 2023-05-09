@@ -1,30 +1,556 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="subpage.css">
-    <title> Synopsis </title>
-  </head>
-  <ul class="nav-bar">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="m4_homepage.html">Summary</a></li>
-    <li><a href="prototypes.html">Prototypes</a></li>
-    <li><a href="testing.html">Testing</a></li>
-  </ul>
-  <div class="banner">
-    <h1>Testing Protocols</h1>
-  </div>
-  <body>
-    <div class="content">
-      <h3>
-        Title
-      </h3>
-      <p>
-        Subtitle
-      </p>
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="subpage.css" />
+
+  <style>
+    body { 
+      background-color: lightblue;
+    }
+    .content {
+      max-width: 50%;
+      display: flex;
+      flex-direction: column;
+      background-color: lightblue; 
+      margin: 0 auto;
+
+    }
+    ol {
+      list-style-position: outside;
+
+      padding-left: 30px;
+    }
+
+    p {
+      margin: 0 0 1em 1em;
+    }
+
+  </style>
+
+  <title>Synopsis</title>
+</head>
+<ul class="nav-bar">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="m4_homepage.html">Summary</a></li>
+  <li><a href="prototypes.html">Prototypes</a></li>
+  <li><a href="testing.html">Testing</a></li>
+</ul>
+<div class="banner">
+  <h1>Testing Protocols</h1>
+</div>
+
+<body>
+  <div class="content">
+    <p style="margin-top: 3em">
+      The template for this protocol is available at Usability.gov. It was
+      modified for the purpose of this project. Direct quotes have been
+      identified and the source has been cited in the Reference Section.
+    </p>
+    <p align="center"><b>TEST PROTOCOL FOR RAMPANT STRATEGY</b></p>
+    <p align="center"><b>Team:&nbsp;</b>O.M.N.I. KREW</p>
+    <p align="center">
+      <b>Members:&nbsp;</b>Kevin Nyquist, Eliana Gelman, Will Howell, Christian Nam,
+      Rita Mathew
+    </p>
+    <p align="center"><b>Milestone 4</b></p>
+    <p>
+      Rampant Strategy is a platform being used by students in large
+      undergraduate classrooms at the University of Georgia. It was deployed
+      in classrooms to allow teachers to make feedback and grades accessible
+      to students in a timely manner. Rampant Strategy was supposed to allow
+      teachers and teaching assistants to communicate with students
+      effectively regarding assignments, &nbsp;to allow teachers and teaching
+      assistants to give instructions to students regarding coursework and
+      allow students to access the platform functionalities to easily submit
+      homework online.
+    </p>
+    <p>
+      The user experience of Rampant Strategy is far from ideal. Students are
+      hindered from completing coursework because of bad design. Cluttered and
+      confusing mapping causes students to have issues navigating pages,
+      saving work, and accessing feedback from the instructor. Grades are
+      affected because of difficulty submitting polls and assignments. There
+      are no signifiers on the buttons to indicate interactability. This lack
+      of signifiers causes students to miss vital information about
+      assignments. Poor design has caused issues of accessibility and
+      effectiveness. Rather than promoting active learning for students, and
+      providing timely feedback to students, Rampant Strategy falls short of
+      meeting the needs of students, teaching assistants and
+      instructors.&nbsp;
+    </p>
+    <p>
+      Therefore the aim of this protocol is to conduct a usability test during
+      the re-design and development of Rampant Strategy to improve user
+      experience. According to Usability.gov, &ldquo;the goals of usability
+      testing include establishing a baseline of user performance,
+      establishing and validating user performance measures, and identifying
+      design concerns to be addressed in order to improve user experience as
+      measured by accessibility and effectiveness.&rdquo; Using a systems
+      approach to design, we define accessibility as the process which
+      &nbsp;ensures that users have information, activities and/or
+      environments available to complete tasks comfortably and without major
+      complications. Or the practice of making these aspects of a system
+      sensible, meaningful, and usable for as many people as possible.
+      Effective communication is the interchange between two or more persons
+      for the purpose of delivering, receiving, and understanding a message
+      successfully in a timely manner.&nbsp;
+    </p>
+    <p><br /></p>
+    <p>
+      <b>A. Objective:&nbsp;</b>The usability test objectives for this project are as
+      follows:&nbsp;
+    </p>
+    <ol>
+      <li>
+        <p>
+          To determine design inconsistencies and usability problem areas
+          within the user interface specifically for accessibility and
+          effectiveness.
+        </p>
+      </li>
+      <li>
+        <p>
+          Establish a CONTROL GROUP for baseline user performance and
+          user-satisfaction levels of the user interface with a control group.
+        </p>
+      </li>
+      <li>
+        <p>
+          Test the prototype with EXPERIMENTAL GROUP (undergraduate students)
+          at UGA.
+        </p>
+      </li>
+    </ol>
+    <p><b>B. Research Question:&nbsp;</b></p>
+    <ol>
+      <li>
+        <p>How accessible are affordances and signifiers to users?</p>
+      </li>
+      <li>
+        <p>How effective are the functionalities of Rampant Strategy?</p>
+      </li>
+      <li>
+        <p>
+          Do the affordances and signifiers allow for effective communication
+          between students and teachers?
+        </p>
+      </li>
+      <li>
+        <p>What are the user assumptions made by designers?</p>
+      </li>
+    </ol>
+    <p><b>C. Hypothesis:&nbsp;</b></p>
+    <ol>
+      <li>
+        <p>
+          By recognizing and responding to bias, the prototype makes Rampant
+          Strategy effective and accessible which results in improvement of
+          user experience.&nbsp;
+        </p>
+      </li>
+      <li>
+        <p>
+          The modifications in design incorporating affordances and signifiers
+          to address user needs for accessibility and effective use of the
+          platform results in improvement of user experience.
+        </p>
+      </li>
+    </ol>
+    <p><b>Null Hypothesis:</b></p>
+    <p>
+      Modifications in design incorporating affordances and signifiers to
+      address user needs for accessibility and effective use of the platform
+      do not result in improvement of user experience.
+    </p>
+    <p><b>D. METHODOLOGY</b></p>
+    <p>
+      Good designers &ldquo;start by trying to understand what the real issues
+      are.&rdquo; (Norman, 2013. p. 218). Therefore, rather than using
+      traditional measures of people, such as age, education, and income, the
+      study will be based on an activity centered approach of first gaining a
+      deep understanding of students&rsquo; needs around activities to be
+      performed. In order to obtain IRB approval the following documents will
+      be submitted - Letter of informed consent, Letter to students seeking
+      participation, Instruments for data collection - survey, interview.
+    </p>
+    <ol>
+      <li>
+        <p>
+          <b>Letter of Informed Consent</b>&nbsp;&ndash; This is an important step in
+          any research protocol. The Belmont Report was written by the
+          National Commission for the Protection of Human Subjects of
+          Biomedical and Behavioral Research. Please see attached.&nbsp;
+        </p>
+      </li>
+    </ol>
+    <ol start="2">
+      <li>
+        <p>
+          <b>Letter to Students seeking participation</b>&nbsp;- This letter will be
+          sent to all the students in the Management Information Systems class
+          seeking their participation in the study.
+        </p>
+      </li>
+    </ol>
+    <ol start="3">
+      <li>
+        <p>
+          <b>Instruments for data collection</b>&nbsp;&ndash; Please see attached for
+          specific data that will be collected. There are advantages and
+          disadvantages with every instrument. Two instruments were chosen in
+          order to confirm the results for validity and reliability.&nbsp;
+        </p>
+      </li>
+    </ol>
+    <p>
+      A&nbsp;<b>survey</b>&nbsp;is useful to gather data on demographics of users,
+      how widespread are the needs, and other instructional and environmental
+      factors. This study is activity centered and thus no demographic
+      information will be collected. In addition, students will be informed
+      that it is Rampant Strategy that is being tested.&nbsp;
+    </p>
+    <p>
+      <b>Interviews</b>&nbsp;are important sources of understanding contextual
+      factors such as perception of task relevance, opportunities to perform;
+      and cultural factors such as whether hierarchy has any influence on
+      performance. They provide an opportunity to ask open-ended questions.
+    </p>
+    <h3>Participants</h3>
+    <ul>
+      <li>
+        <p>
+          The Experimental Group is the user group which includes students
+          enrolled in large undergraduate classes in which teachers are using
+          Rampant Strategy. Although the number of students who will
+          participate in the test cannot be estimated at this time, typically
+          the classes have over 150 students.
+        </p>
+      </li>
+      <li>
+        <p>
+          Participants will be informed that it is not they who are being
+          studied, but rather the application Rampant Strategy.
+        </p>
+      </li>
+      <li>
+        <p>
+          The Control Group are students who will respond to the same survey
+          but they will only have access to the older version of Rampant
+          Strategy. This will establish a baseline user performance and
+          user-satisfaction levels of the user interface with a control group.
+        </p>
+      </li>
+    </ul>
+    <p><br /></p>
+    <div align="left">
+      <img src="testing_table.JPG" alt="Testing Table">
     </div>
-  </body>
-  <div class="footer">
-    <div class="label">Created using Github Pages. For exclusive use of O.M.N.I. Krew and it's affiliates.</div>
+    <p><br /></p>
+    <p><b>E. ANALYSIS</b></p>
+    <p>
+      Data will be used to assess whether usability goals regarding
+      accessibility and effectiveness have been achieved. Difference in
+      responses to the survey questions will be analyzed with statistical
+      software such as ANOVA, linear regression or t-test. If the change is
+      statistically significant then it will corroborate our hypothesis that
+      the modifications in design to incorporate affordances and signifiers
+      address user needs for accessibility and effective use of the platform
+      results in improvement of user experience.
+    </p>
+    <p><b>F. BENEFITS</b></p>
+    <p>
+      To improve this educational technology tool, we propose a more intuitive
+      interface that would benefit all parties involved. The proposed changes
+      to Rampant Strategy, such as replacing the button on the side nav-bar
+      with a drop-down on the top nav-bar and splitting the current submit
+      button into Save and Submit buttons, would help to address the confusion
+      and improve the usability of the platform. These changes could
+      significantly enhance the learning experience for students and improve
+      the efficiency of instructors and teaching assistants in conducting
+      classes and grading assignments.
+    </p>
+    <p><b>References</b></p>
+    <p>
+      Norman, D. (2013).&nbsp;The Design of Everyday Things.&nbsp;Basic Books.
+      p. 218.
+    </p>
+    <p>Usability.gov (n.d.) https://www.usability.gov/</p>
+    <p><br /></p>
+    <p><b>UNIVERSITY OF GEORGIA</b></p>
+    <p><b>INFORMED CONSENT</b></p>
+    <p><b>Testing the prototype of Rampant Strategy New Improved version</b></p>
+    <p>Dear Participant,</p>
+    <p>
+      My name is&nbsp;Michael Cotterell&nbsp;and I am a faculty member in the
+      Department of Computer Science at the University of Georgia. I am
+      inviting you to take part in a research study.
+    </p>
+    <p>
+      You are being asked to participate in a survey to provide feedback on
+      the prototype of Rampant Strategy. &nbsp;Rampant Strategy is used in
+      large classrooms for students and faculty to communicate assignments,
+      deadlines, quizzes and any other issue related to the course.&nbsp;You
+      are being asked to participate in this study because you are currently a
+      student at the University of Georgia. Your participation in this
+      research is voluntary. If you choose to participate in this study, you
+      will be asked to complete a brief online survey that should take less
+      than 10 minutes to complete. Your participation in this research is
+      voluntary. If you choose to participate in this study, you will be asked
+      to participate in a brief 15 minute interview via Zoom.
+    </p>
+    <p><b><u>Researchers</u></b>&nbsp;</p>
+    <p><u>Principal Investigator:</u></p>
+    <p>
+      Michael Cotterell, PhD, Department of Computer Science, University of
+      Georgia
+    </p>
+    <p><u>Co-Investigators:</u></p>
+    <p>
+      Rita Mathew, Doctoral Student, Workforce Education, Department of
+      Workforce Education and Instructional Technology, College of Education.
+      Kevin Nyquist, Eliana Gelman, William Howell, Christian Nam.
+    </p>
+    <p><u><b>Risks and Benefits</b></u></p>
+    <p>
+      Risks: There are no known risks at this time to participate in this
+      study. This research involves the transmission of data over the
+      Internet. Every reasonable effort has been taken to ensure the effective
+      use of available technology; however, confidentiality during online
+      communication cannot be guaranteed.
+    </p>
+    <p>
+      Benefits: The opportunity to contribute to the knowledge of the
+      field through your participation in the study.
+    </p>
+    <p>&nbsp;</p>
+    <p><br /></p>
+    <p><u><b>Costs and Payments</b></u></p>
+    <p>
+      There will be no costs to you for participation in this research study.
+      The researcher is unable to give you any payment for participating in
+      this study.
+    </p>
+    <p><u><b>New Information</b></u></p>
+    <p>
+      If the researcher finds new information during this study that would
+      reasonably change your decision about participating, you will be
+      informed.
+    </p>
+    <p><u><b>Confidentiality</b></u></p>
+    <p>
+      All information obtained about you or your institution for this study is
+      strictly confidential unless disclosure is required by law. The results
+      of this study may be used in reports, presentations, and publications,
+      but the researcher will not identify you or your institution.
+    </p>
+    <p><u><b>Withdrawal Privilege</b></u></p>
+    <p>
+      It is OK for you to say NO. Even if you say YES now, you are free to say
+      NO later, and walk away or withdraw from the study&mdash;at any time.
+      Your decision will not affect your relationship with the University of
+      Georgia, or otherwise cause a loss of benefits to which you might
+      otherwise be entitled. Your decision to participate or not participate
+      in the research will have no effect on your employment with the
+      University of Georgia.
+    </p>
+    <p><b><u>Questions</u></b></p>
+    <p>
+      If you are interested in participating or have questions about this
+      research, please feel free to contact our team member Rita Mathew
+      at&nbsp;706-202-0935, ritmath@uga.edu. &nbsp;If you have any complaints
+      or questions about your rights as a research volunteer, contact the IRB
+      at 706-542-3199 or by email at IRB@uga.edu.
+    </p>
+    <p>Please keep this letter for your records.</p>
+    <p><u><b>Voluntary Consent</b></u>&nbsp;</p>
+    <p>
+      I have read, understood, and received a copy of the above consent and
+      desire of my own free will to participate in this study.&nbsp;
+    </p>
+    <p>
+      I have been informed in advance what my task(s) will be and what
+      procedures will be followed.&nbsp;
+    </p>
+    <p>
+      I have been given the opportunity to ask questions and have had my
+      questions answered to my satisfaction.&nbsp;
+    </p>
+    <p>
+      I am aware that I have the right to withdraw consent and to discontinue
+      participation at any time, without prejudice to my future inclusion in
+      this project.&nbsp;
+    </p>
+    <p>
+      I understand that participation in this usability study is voluntary and
+      I agree to immediately raise any concerns or areas of discomfort during
+      the session with the study administrator.&nbsp;
+    </p>
+    <p>
+      My signature below may be taken as affirmation of all the above
+      statements; it was given prior to my participation in this study.&nbsp;
+    </p>
+    <p>
+      Please sign below to indicate that you have read and you understand the
+      information on this form and that any questions you might have about the
+      session have been answered.&nbsp;
+    </p>
+    <p>
+      &nbsp;Name (Printed): _____________ &nbsp;Signature:______________
+      &nbsp; Date: ____________&nbsp;
+    </p>
+    <p>&nbsp;</p>
+    <p><b>References</b></p>
+    <p>
+      Shneiderman, B. (1998).&nbsp;Designing the user interface: Strategies
+      for effective Human-Computer Interaction.&nbsp;3rd&nbsp;Ed. Addison
+      Wesley. (p.130).
+    </p>
+    <p>
+      Usability.gov (n.d.)&nbsp;<a
+        href="https://www.usability.gov/how-to-and-tools/resources/templates/consent-form-adult.html">https://www.usability.gov/how-to-and-tools/resources/templates/consent-form-adult.html</a>
+    </p>
+    <p align="center"><b>UNIVERSITY OF GEORGIA</b></p>
+    <p align="center"><b>RECRUITMENT LETTER- Student</b></p>
+    <p align="center">A study to test a prototype of Rampant Strategy</p>
+    <p>University of Georgia student recruiting email</p>
+    <p>&nbsp;</p>
+    <p>Dear *******,</p>
+    <p>&nbsp;</p>
+    <p>
+      This email is to invite you to participate in a survey being conducted
+      by Dr. Michael Cotterell, faculty member, Department of Computer
+      Science, Rita Mathew from the Department of Workforce Education and
+      Instructional Technology at the University of Georgia, Kevin Nyquist,
+      Eliana Gelman, William Howell, and Christian Nam to test a prototype of
+      Rampant Strategy, a software&nbsp;used in large classrooms for students
+      and faculty to communicate assignments, deadlines, quizzes and any other
+      issue related to the course.
+    </p>
+    <p>
+      As a UGA student who uses the software, your perspective will be a
+      valuable source of information for the researchers as they complete
+      their usability test.
+    </p>
+    <p>
+      If you choose to participate in this study, you will be asked to
+      participate in an interview that will last approximately 15 minutes with
+      our research team to discuss any thoughts you would like to share
+      regarding the software.
+    </p>
+    <p>
+      If you have any questions or are willing to participate in an interview,
+      please contact our team member, Rita Mathew at ritmath@uga.edu. &nbsp;
+    </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p><br /></p>
+    <p>&nbsp;</p>
+    <p><br /></p>
+    <p><b>Form 1 - SURVEY</b></p>
+    <p>
+      The link for the survey is &nbsp;<a
+        href="https://www.surveymonkey.com/r/8T5HM3W">https://www.surveymonkey.com/r/8T5HM3W</a>
+    </p>
+    <p><br /></p>
+    <p align="center"><b>Rampant Strategy New Improved</b></p>
+    <p align="center">
+      Rampant Strategy is used in large classrooms for students and faculty to
+      communicate assignments, deadlines, quizzes and any other issue related
+      to the course.
+    </p>
+    <p><br /></p>
+    <p style="margin-bottom: 0;">1.&nbsp;Overall, how would you rate Rampant Strategy NI?</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Very good</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">2. Would you recommend Rampant Strategy to other students?</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Yes</li>
+      <li>No</li>
+    </ul>
+    <p><i>Please rate the individual features below:</i></p>
+    <p style="margin-bottom: 0;">3.&nbsp;Tab for Grades</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Great</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">4.&nbsp;Tab for Assignment feedback from instructor</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Great</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">5.&nbsp;Ease of assignment submission</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Great</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">6.&nbsp;Tab for Deadlines</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Great</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">7.&nbsp;Option to save work and return to complete later.</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Excellent</li>
+      <li>Great</li>
+      <li>Good</li>
+      <li>Fair</li>
+      <li>Poor</li>
+    </ul>
+    <p style="margin-bottom: 0;">8.&nbsp;Is this course required for your major?</p>
+    <ul style="list-style-type: circle; margin-bottom: 3em">
+      <li>Yes</li>
+      <li>No</li>
+    </ul>
+
+    <p><br></p>
+    <p><b>Form 2 &ndash; INTERVIEW PROTOCOL TOOL&nbsp;&nbsp;<i>for those who respond to survey to test Rampant Strategy.</i></b></p>
+    <p>The interview will use a planned script that introduces the purpose of the interview &ndash; testing a prototype of Rampant Strategy - and asks for any permission necessary related to the interview:</p>
+    <p>&middot;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Inform that IRB approval has been obtained.</p>
+    <p>&middot;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Obtain permission to record the interview and explain that it will be used to help you complete the report.</p>
+    <p>&middot;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Explain that they may review the report once it is completed.</p>
+    <p>The interview will conclude with thanks to the participant for their time, and remind them about how the information will be used for research in testing a prototype of Rampant Strategy.</p>
+    <p>Points to remember during interview:</p>
+    <p>1.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Active listening.</p>
+    <p>2.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Familiarity with the interview questions.</p>
+    <p>3.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Expected length of the interview will be 15 minutes.</p>
+    <p>&nbsp;[Introduction]</p>
+    <p>Can you say your&nbsp;<b>name</b>&nbsp;and&nbsp;<b>position</b>?</p>
+    <p><b>Questions for students:</b>&nbsp;</p>
+    <p>1.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;What was your experience with the Rampant Strategy new version?</p>
+    <p>2.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Were the tabs easy to use?</p>
+    <p>3.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;What types of challenges or concerns did you have while using Rampant Strategy?</p>
+    <p>4.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Did the software do what you anticipated it would do?</p>
+    <p>5.&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Were there any issues of accessibility?</p>
+    <p><br></p>
+    <p><br></p>
+    <p><br></p>
+
   </div>
+</body>
+<div class="footer">
+  <div class="label">
+    Created using Github Pages. For exclusive use of O.M.N.I. Krew and it's
+    affiliates.
+  </div>
+</div>
+
 </html>
